@@ -1,0 +1,20 @@
+.btn{
+    background-color: rgb(2, 12, 56);
+    border-radius: 5px;
+    color: rgb(254, 245, 245);
+    font-size: 30px;
+    padding: 5px;
+    width: 250px;
+    margin: 15px;
+    box-shadow: 0 0 10px 2px rgb(11, 202, 62);
+}
+.warning{
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: white;
+}
+.primary{
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.cont{
+    padding: 10px;
+    box-shadow: 0 0 5px 0.5px black;
+
+}
+p{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+p:hover{
+    font-size: 22px;
+    color: blue;
+    font-weight: bold;
+
+
+}
