@@ -1,9 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .nav{
-    background-color: black;
+    background-color: rgb(109, 78, 248);
     color: white;
     font-size: 30px;
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+.active {
+    color: yellow !important;
+    
 }

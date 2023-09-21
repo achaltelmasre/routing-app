@@ -1,15 +1,23 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar()
 { 
-    return(
-        <div className="nav">
-            Navbar
-            <span>Home</span>
-            <span>About</span>
-            <span>Contact</span>
+    const currentpath = window.location.pathname;
 
-        </div>
-    )
+    function getActiveClass(path){
+        return currentpath === path ? "active" : " ";
+
+    }
+  return (
+    <nav className="nav">
+      <Link to="/" className={getActiveClass('/')}>Home</Link>
+      <Link to="/about" className={getActiveClass('/about')}>About</Link>
+      <Link to="/contact" className={getActiveClass('/contact')}>Contact</Link>
+      <Link to="/product" className={getActiveClass('/product')}>Product</Link>
+
+
+    </nav>
+  );
 
 }
